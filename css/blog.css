@@ -1,0 +1,83 @@
+/* Спецификация */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #000;
+}
+h2{
+	font-weight: 700;
+	font-size: 42px;
+	color: #585858;
+}
+h3{
+	font-weight: 600;
+	font-size: 24;
+	color: #737373;
+}
+p,span,div,a{
+	line-height: 1.8em;
+}
+/* Первый экран */
+
+li a:hover{
+	color: #e0e0e0;
+}
+nav li:hover {
+	background-color: #ff3f40;
+}
+.post-h1{
+	font-size: 22px;
+	margin: 20px 0;
+}
+.post-img{
+	max-width: 500px;
+}
+.post-text{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.post-h2{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #343a40;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #343a40;
+}
+.wrapper{
+	height: calc(100vh - 110px);
+}
+
+.item-fontsize{
+	font-size: 14px;
+	padding: 5px;
+}
+
+.list-text{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+@media (max-width: 500px){
+	img{
+		width: 300px;
+		height: auto;
+	}
+}
